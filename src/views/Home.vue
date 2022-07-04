@@ -38,6 +38,7 @@
             <td v-bind:href="item.title" target="_blank">
               <BlogCard
                 class="card"
+                style="width: 95vw"
                 v-if="item.id"
                 @click.native="showModal(item.id)"
                 :item="item"

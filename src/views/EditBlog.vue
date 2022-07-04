@@ -1,7 +1,7 @@
 <template>
   <div class="editcard-container">
     <div>
-      <h1>Edit</h1>
+      <h1>Create/Edit</h1>
     </div>
     <select class="select" v-model="item.classify">
       <option disabled value="">Please select one</option>
